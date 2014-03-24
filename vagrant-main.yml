@@ -1,0 +1,14 @@
+---
+- name: elasticsearch and kibana
+  hosts: all
+  sudo: yes
+  user: vagrant
+  vars_files:
+    - group_vars/default-settings.yml
+  gather_facts: yes
+  roles:
+    - common
+    - elasticsearch
+    - nginx
+    - nodejs
+    - kibana
