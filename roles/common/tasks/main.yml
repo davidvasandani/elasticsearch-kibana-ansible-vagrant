@@ -1,3 +1,9 @@
 ---
-- name: upgrade apt
-  apt: upgrade=full state=latest
+- name: update-cache apt
+  apt: update-cache=yes cache_valid_time=3600
+
+- name: update python-pycurl
+  apt: name=python-pycurl state=latest
+
+# - name: upgrade all
+#   apt: upgrade=full state=latest

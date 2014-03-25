@@ -11,7 +11,7 @@ kibana_elasticsearch_url: http://127.0.0.1:9200
 
 kibana_nginx_config_name: kibana.conf
 kibana_nginx_config_path: /etc/nginx/sites-enabled
-kibana_nginx_listen: 192.168.111.10
+kibana_nginx_listen: 80
 kibana_nginx_server_name: 192.168.111.10
 kibana_nginx_access_log: false
 kibana_nginx_error_log: false

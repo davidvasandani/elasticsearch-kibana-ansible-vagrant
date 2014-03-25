@@ -7,7 +7,7 @@
 
 # Update repos
 - name: Install python-software-properties
-  apt: pkg=python-software-properties state=present update_cache=yes
+  apt: pkg=python-software-properties state=present update_cache=yes cache_valid_time=3600
 - name: Update repositories
   apt_repository: repo={{ item }} state=present update_cache=yes
   with_items: elasticsearch_apt_repos
