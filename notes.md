@@ -1,6 +1,8 @@
 elasticsearch-kibana-ansible-vagrant
 ====================================
 
+notes
+
 http://www.elasticsearch.org/blog/data-visualization-elasticsearch-aggregations/
 
 http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/indices-delete-index.html
